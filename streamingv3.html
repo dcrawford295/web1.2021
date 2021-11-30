@@ -1,0 +1,197 @@
+<!doctype html>
+
+<!--
+More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                background:lightgrey;
+                color:black;
+            }
+            nav {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+                height:10vh;
+            }
+            .container {
+                min-height:70vh;
+                background:mistyrose;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+                display:flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                justify-content:center;
+                
+            }
+            .box{
+              flex-basis:40%;
+              text-align:center;
+              border-radius:12px;
+              overflow:hidden;
+              background:mediumslateblue;
+              margin:1rem;
+              
+            }
+            .box-image{
+              height:30vh;
+              background:mediumslateblue;
+              overflow:hidden;
+            }
+            .box-image img{
+              display:block;
+              width:100%;
+            }
+            .box h3{
+             background:lavender;
+             padding:.75rem;
+             font-size:1.25rem;
+           
+              
+            }
+            .box p{
+              padding:1rem;
+              font-size:1.15rem;
+               background:honeydew;
+              
+            }
+            .box a{
+              color:black;
+              text-decoration:none;
+            }
+            .box:hover {
+              box-shadow: 29px 39px 26px 10px rgba(0,0,0,0.75);
+            }
+            
+        </style>
+        <title>Streaming v3</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Streaming v3</h1>
+            <p>
+                Deziree' Crawford<br>
+                Web 1, 4th hr<br>
+                11-11-21
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.netflix.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png" alt="#">
+                </div>
+                <h3>Netflix</h3>
+                <p>
+                   Netflix is streaming service that is used worldwide. Its has shows that everyone can enjoy from Cocomelon to Grey's Anatomy. You can also watch all of your favorite tv shows and movies at enjoyable prices.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+                <div class="box-image">
+                    <img src="https://techcrunch.com/wp-content/uploads/2016/11/hulu-shows-movies.jpg" alt="#">
+                </div>
+                <h3>Hulu</h3>
+                <p>
+                    Hulu is another streaming serives many people use. They have all your tv shows and movies, plus LiveTV, at all reasonable prices.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.disneyplus.com/welcome/subscribe" target="_blank">
+                <div class="box-image">
+                    <img src="https://cdn.vox-cdn.com/thumbor/gWXpOOJXwDXvIi14t6R7tyyDhNE=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22162947/disney_plus.jpeg" alt="#">
+                </div>
+                <h3>Disney Plus</h3>
+                <p>
+                    Disney plus is a newer streaming service. They have all the Disney movies and shows, from your old school to your newer school. All this at a great price, monthly or yearly.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.peacocktv.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://www.adweek.com/wp-content/uploads/2019/09/peacock-nbcu-streaming-CONTENT-2019-652x367.jpg" alt="#">
+                </div>
+                <h3>Peacock</h3>
+                <p>
+                    Peacock is on more of the not so known streaming services. They have good selection of movies like: Madea, Halloween, and movies like 21 Jump Street. Getting Peacock, will not make you regret it.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hbomax.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://static.cdn.turner.com/inline-images/EMEA%20launch.jpg" alt="#">
+                </div>
+                <h3>HBO Max</h3>
+                <p>
+                   HBO max is a great movie streaming service. They have recently been streaming all the new movies that come out in theaters, many people seem to have enjoyes that. They also good shows with good prices.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.paramountplus.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2021/08/paramount-1280-hero.jpg" alt="#">
+                </div>
+                <h3>Paramount plus</h3>
+                <p>
+                   Paramount plus is also one of the not so known streaming services. They have recently been streaming the new reboot, iCarly. You can watch all the new shows for .99 cents for 2 months.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Placeholder
+        </footer>
+    </body>
+</html>
